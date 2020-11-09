@@ -1,4 +1,11 @@
-<header>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Miljö.css">
+    
+</head>
+<body>
+    <header>
         
         <div id="containerIntro">
             <img src="ovanaker.png" width="300" height="120">
@@ -7,12 +14,102 @@
         </div>
         
     </header>
-    
-    
-    header {
+</body>
+
+<p id = "headline">
+    Dina sopor är inget skräp
+</p>
+<p id = "text">
+    Var dina sopor hamnar har stor betydelse. Att rätt sortera ditt avfall kan var en värdefull resurs som används tll nya produkter eller energi.
+    Matrester som du slänger blir till biogas som används för att driva fordon på ett miljösmart sätt. Sopor du slänger kan inneålla farliga men
+    även värdefulla ämnen. Och genom att sortera dessa sopor så kan farliga ämnen tas omhand på säkert sätt och skydda människor och miljön. <br> <br>
+    Genom att sortera soporna så kan det mesta även återvinnas och användas till nya produkter, vilket leder till ett sparande av energi och naturresurser.
+
+</p>
+<figure id = "bilder1">
+    <img src="plast.jpg" width="300" height="270">
+    <img src="glas.jpg" width="300" height="270">
+</figure>
+<figure id = "bilder2">
+    <img src="batteri.jpeg" width="300" height="270">
+    <img src="burkar.jpg" width="300" height="270">
+</figure>
+
+
+<footer>
+
+</footer>
+</html>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+CSS
+
+
+header {
   background-color: turquoise;
   height: 140px;
   margin: 0;
   top: 0;
   width: 100%;
+}
+#containerIntro h1 {
+  margin: 0px;
+}
+#containerIntro p {
+  font-size: 60px;
+  margin: 0px;
+  margin-left:100px;
+  display: inline;
+}
+#myBtn {
+
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+#bilder1{
+  float: right;
+  margin: 0;
+  position: absolute;
+  top: 160px;
+  right: 15px;
+}
+#bilder2{
+  float:right;
+  margin : 0;
+  position: relative;
+  top: 30px;
+  right: 15px;
+}
+#headline{
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#text{
+  background-color: gray;
+  border-style: dotted;
+    border-radius: 20px;
+    border-width: 4px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 650px;
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: green;
 }
