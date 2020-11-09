@@ -1,0 +1,18 @@
+<header>
+        
+        <div id="containerIntro">
+            <img src="ovanaker.png" width="300" height="120">
+            <p>Källsortering för hushållen</p>
+            <button onclick="topFunction()" id="myBtn" title="Scrolla till toppen">Top</button>
+        </div>
+        
+    </header>
+    
+    
+    header {
+  background-color: turquoise;
+  height: 140px;
+  margin: 0;
+  top: 0;
+  width: 100%;
+}
